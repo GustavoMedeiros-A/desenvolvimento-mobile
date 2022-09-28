@@ -23,7 +23,7 @@ const Login = () => {
             placeholder='Sua senha...'
             style={styles.input}
             />
-
+            {/* TouchableOpacity é um wrapper para fazer com que uma View responda apropriadamente a toques. Ao ser clicado, a opacidade da View é diminuída, mas de maneira gradual, diminuindo assim a sua intensidade. */}
             <TouchableOpacity style={styles.button}>
                 <Text style={styles.buttonText}>Acessar</Text>
             </TouchableOpacity>

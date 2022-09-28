@@ -22,6 +22,7 @@ const Welcome = () => {
             <Text style={styles.title}>Entre na Terra Média e descubra suas maravilhas que vão aquecer seu coração.</Text>
             <Text style={styles.text}>Faça o login para começar</Text>
 
+            {/* TouchableOpacity é um wrapper para fazer com que uma View responda apropriadamente a toques. Ao ser clicado, a opacidade da View é diminuída, mas de maneira gradual, diminuindo assim a sua intensidade. */}
             <TouchableOpacity 
             style={styles.button}
             onPress={ ()=> navigation.navigate('Login')}
